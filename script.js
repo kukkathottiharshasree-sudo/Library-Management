@@ -11,8 +11,10 @@ function addBook() {
     let table = document.getElementById("bookList");
 
     let row = table.insertRow();
+    let serialNumber = table.rows.length;
 
     row.innerHTML = `
+        <td>${S.No}</td>
         <td>${bookName}</td>
         <td>${authorName}</td>
         <td>Available</td>
