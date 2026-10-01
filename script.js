@@ -11,12 +11,8 @@ function addBook() {
     let table = document.getElementById("bookList");
 
     let row = table.insertRow();
-    let serialNumber = table.rows.length;
-    row.insertCell(0).innerText = serialNumber;
-    row.insertCell(1).innerText = bookName;
-    row.insertCell(2).innerText = authorName;
-    row.insertCell(3).innerText = "Available";
 
+    let serialNumber = table.rows.length;
 
     row.innerHTML = `
         <td>${serialNumber}</td>
@@ -38,7 +34,7 @@ function issueBook(button) {
 
     let row = button.parentElement.parentElement;
 
-    row.cells[2].innerText = "Issued";
+    row.cells[3].innerText = "Issued";
 
     button.innerText = "Return";
 
@@ -52,7 +48,7 @@ function returnBook(button) {
 
     let row = button.parentElement.parentElement;
 
-    row.cells[2].innerText = "Available";
+    row.cells[3].innerText = "Available";
 
     button.innerText = "Issue";
 
@@ -67,4 +63,17 @@ function deleteBook(button) {
     let row = button.parentElement.parentElement;
 
     row.remove();
+
+    updateSerialNumbers();
 }
+
+
+function updateSerialNumbers() {
+
+    let rows = document.querySelectorAll("#bookList tr");
+
+    rows.forEach(function (row, index) {
+        row.cells[0].innerText = index + 1;
+    });
+}
+
