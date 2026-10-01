@@ -1,18 +1,18 @@
 function addBook() {
 
-    let bookName = document.getElementById("bookName").value;
-    let authorName = document.getElementById("authorName").value;
+    let bookName = document.getElementById("bookName").value.trim();
+    let authorName = document.getElementById("authorName").value.trim();
 
     if (bookName === "" || authorName === "") {
         alert("Please enter book name and author name");
         return;
     }
 
-    let table = document.getElementById("bookList");
+    let bookList = document.getElementById("bookList");
 
-    let row = table.insertRow();
+    let row = bookList.insertRow();
 
-    let serialNumber = table.rows.length;
+    let serialNumber = bookList.rows.length;
 
     row.innerHTML = `
         <td>${serialNumber}</td>
@@ -25,6 +25,7 @@ function addBook() {
         </td>
     `;
 
+    // Clear input fields
     document.getElementById("bookName").value = "";
     document.getElementById("authorName").value = "";
 }
@@ -72,8 +73,7 @@ function updateSerialNumbers() {
 
     let rows = document.querySelectorAll("#bookList tr");
 
-    rows.forEach(function (row, index) {
+    rows.forEach(function(row, index) {
         row.cells[0].innerText = index + 1;
     });
 }
-
