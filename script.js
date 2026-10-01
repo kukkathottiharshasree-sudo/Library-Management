@@ -14,7 +14,7 @@ function addBook() {
     let serialNumber = table.rows.length;
 
     row.innerHTML = `
-        <td>${S.No}</td>
+        <td>${serialNumber}</td>
         <td>${bookName}</td>
         <td>${authorName}</td>
         <td>Available</td>
