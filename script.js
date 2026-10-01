@@ -12,6 +12,11 @@ function addBook() {
 
     let row = table.insertRow();
     let serialNumber = table.rows.length;
+    row.insertCell(0).innerText = serialNumber;
+    row.insertCell(1).innerText = bookName;
+    row.insertCell(2).innerText = authorName;
+    row.insertCell(3).innerText = "Available";
+
 
     row.innerHTML = `
         <td>${serialNumber}</td>
