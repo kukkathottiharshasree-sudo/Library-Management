@@ -2,7 +2,7 @@
 # LIBRARY-MANAGEMENT-SYSTEM
 --------------------------------------
 # 📚 Library Management System
-----------------------------------------
+
 ## 📖 Project Description
 
 The Library Management System is a web-based application designed to manage library books easily and efficiently. It helps users maintain book records, track available books, and manage issued books in one place.
@@ -10,7 +10,7 @@ The Library Management System is a web-based application designed to manage libr
 The application provides a simple and user-friendly interface for managing a library's book collection.
 
 ## ✨ Features
----------------------------------------------------
+
 - **Dashboard:** Displays the total number of books, available books, and issued books.
 - **Add New Book:** Allows users to add books by entering the book title, author name, and category.
 - **Book Collection:** Displays the list of books in the library.
