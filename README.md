@@ -8,7 +8,7 @@
 The Library Management System is a web-based application designed to manage library books easily and efficiently. It helps users maintain book records, track available books, and manage issued books in one place.
 
 The application provides a simple and user-friendly interface for managing a library's book collection.
-
+------------------------------------------------------
 ## ✨ Features
 
 - **Dashboard:** Displays the total number of books, available books, and issued books.
