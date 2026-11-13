@@ -3,10 +3,6 @@
 --------------------------------------
 # 📚 Library Management System
 ----------------------------------------
-## 🌐 Live Demo
------------------------------------------
-[Click here to view the Library Management System](https://library-management-system-o632.onrender.com/)
-------------------------------------------
 ## 📖 Project Description
 -------------------------------------------
 The Library Management System is a web-based application designed to manage library books easily and efficiently. It helps users maintain book records, track available books, and manage issued books in one place.
