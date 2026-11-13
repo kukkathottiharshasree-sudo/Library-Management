@@ -4,11 +4,11 @@
 # 📚 Library Management System
 ----------------------------------------
 ## 📖 Project Description
--------------------------------------------
+
 The Library Management System is a web-based application designed to manage library books easily and efficiently. It helps users maintain book records, track available books, and manage issued books in one place.
 
 The application provides a simple and user-friendly interface for managing a library's book collection.
--------------------------------------------------
+
 ## ✨ Features
 ---------------------------------------------------
 - **Dashboard:** Displays the total number of books, available books, and issued books.
@@ -20,7 +20,7 @@ The application provides a simple and user-friendly interface for managing a lib
 - **Book Actions:** Provides options to manage book records.
 ---------------------------------------------------------
 ## 🖥️ Application Modules
---------------------------------------------------------
+
 1. Dashboard
 2. Add New Book
 3. Book Collection
@@ -29,7 +29,7 @@ The application provides a simple and user-friendly interface for managing a lib
 6. Issued Book Management
 -------------------------------------------------------------------------
 ## 🎯 Objectives
----------------------------------------------------------------------------
+
 - To simplify library book management.
 - To maintain organized book records.
 - To make book searching easier.
@@ -37,13 +37,10 @@ The application provides a simple and user-friendly interface for managing a lib
 - To reduce manual record-keeping.
 -----------------------------------------------------------------------
 ## 🚀 Live Application
---------------------------------------------------------------------
+
 https://library-management-system-o632.onrender.com/
 ---------------------------------------------------------------
 ## 📌 Conclusion
----------------------------------------------------------------
+
 The Library Management System provides a simple and efficient way to organize and manage library resources. It makes book management easier through its user-friendly interface and organized book collection.
 ------------------------------------------------------------
-OUTPUT
--------------------------------------------------------------
-https://library-management-system-o632.onrender.com
