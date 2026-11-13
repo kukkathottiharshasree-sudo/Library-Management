@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Library Management System</h1>
+        <p>Manage your library books easily</p>
+    </header>
+
+    <main>
+        <section class="stats">
+            <div class="card">
+                <h3>Total Books</h3>
+                <p id="totalBooks">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Available Books</h3>
+                <p id="availableBooks">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Issued Books</h3>
+                <p id="issuedBooks">0</p>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h2>Add New Book</h2>
+
+            <form id="bookForm">
+                <input type="text" id="title"
+                    placeholder="Book Title" required>
+
+                <input type="text" id="author"
+                    placeholder="Author Name" required>
+
+                <input type="text" id="category"
+                    placeholder="Book Category" required>
+
+                <button type="submit">Add Book</button>
+            </form>
+        </section>
+
+        <section class="panel">
+            <h2>Book Collection</h2>
+
+            <input type="text" id="searchInput"
+                placeholder="Search books by title, author or category">
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Category</th>
+                            <th>Status</th>
+                            <th>Student</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bookList"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
